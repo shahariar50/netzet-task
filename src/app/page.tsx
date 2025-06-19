@@ -7,7 +7,7 @@ export default function Home() {
       <div className="absolute top-0 w-full">
         <Header />
       </div>
-      <div className="pt-30">
+      <div className="pt-40">
         <Banner />
       </div>
     </div>

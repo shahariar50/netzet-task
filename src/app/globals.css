@@ -24,9 +24,9 @@
 }
 
 h3 {
-  @apply font-bold text-4xl;
+  @apply font-bold text-[35px] font-urbanist leading-[42px];
 }
 
 body {
-  @apply bg-background text-foreground font-figtree;
+  @apply bg-background text-foreground font-figtree text-base;
 }
