@@ -23,6 +23,10 @@
   }
 }
 
+h3 {
+  @apply font-bold text-4xl;
+}
+
 body {
   @apply bg-background text-foreground font-figtree;
 }

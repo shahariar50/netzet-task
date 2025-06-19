@@ -3,11 +3,13 @@ import Header from "@/components/Header";
 
 export default function Home() {
   return (
-    <div>
-      <div>
+    <div className="relative">
+      <div className="absolute top-0 w-full">
         <Header />
       </div>
-      <Banner />
+      <div className="pt-30">
+        <Banner />
+      </div>
     </div>
   );
 }
