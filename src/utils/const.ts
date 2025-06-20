@@ -16,3 +16,8 @@ export const INFOS = [
     text: "Learn from expert-led courses designed for aspiring influencers",
   },
 ];
+
+export const MENUS = [
+  { id: 1, text: "About", link: "/" },
+  { id: 2, text: "Contact", link: "/" },
+];

@@ -5,7 +5,7 @@ const Banner = () => {
   return (
     <div>
       <div className="max-w-5xl mx-auto">
-        <div className="w-full relative">
+        <div className="w-full relative z-10">
           <div className="absolute bottom-0 right-[calc(0%-90px)] -z-1">
             <Image src="/banner.png" alt="banner" width={666} height={679} />
           </div>
