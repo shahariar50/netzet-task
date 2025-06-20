@@ -24,7 +24,7 @@
 }
 
 h3 {
-  @apply font-bold text-[35px] font-urbanist leading-[42px];
+  @apply font-bold text-[25px] md:text-3xl lg:text-[35px] font-urbanist leading-[30px] md:leading-[42px];
 }
 
 body {

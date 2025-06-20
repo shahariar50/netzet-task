@@ -7,7 +7,7 @@ export default function Home() {
       <div className="absolute top-0 w-full z-20">
         <Header />
       </div>
-      <div className="pt-40 bg-background">
+      <div className="pt-19 sm:pt-33 md:pt-30 lg:pt-40 bg-background">
         <Banner />
       </div>
     </div>

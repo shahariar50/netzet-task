@@ -7,12 +7,13 @@ const NavBar = () => {
   return (
     <div className="container">
       <div className="flex justify-between items-center">
-        <div>
-          <Link href="/">
+        <div className="w-1/3 md:hidden"></div>
+        <div className="w-1/3 md:w-full text-center md:text-left">
+          <Link href="/" className="inline-block">
             <Image
               src="/logo.png"
               alt="logo"
-              className="w-[107px] lg:w-[174px]"
+              className="w-[107px] md:w-[140px] lg:w-[174px]"
               width={174}
               height={74}
             />
@@ -25,7 +26,9 @@ const NavBar = () => {
             </li>
           ))}
         </ul>
-        <Bars3Icon className="w-7 cursor-pointer lg:hidden" />
+        <div className="w-1/3 md:w-auto lg:hidden">
+          <Bars3Icon className="w-7 cursor-pointer lg:hidden ml-auto" />
+        </div>
       </div>
     </div>
   );
