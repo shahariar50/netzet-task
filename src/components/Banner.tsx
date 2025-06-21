@@ -6,7 +6,7 @@ const Banner = () => {
     <div>
       <div className="md:max-w-3xl lg:max-w-5xl mx-auto">
         <div className="w-full relative z-10">
-          <div className="md:absolute bottom-0 md:right-[calc(0%-90px)] -z-1 animate__animated animate__fadeIn">
+          <div className="md:absolute bottom-0 md:right-[calc(0%-90px)] -z-1 animate__animated animate__fadeInRight">
             <Image
               src="/banner.png"
               alt="banner"
@@ -31,10 +31,10 @@ const Banner = () => {
                     Discover your way to success with Fametonic:
                   </h3>
                 </div>
-                <ul className="mb-2 md:mb-5 animate__animated animate__fadeInRight">
+                <ul className="mb-2 md:mb-5">
                   {INFOS.map((info) => (
                     <li
-                      className="flex items-center gap-2.5 mb-3 leading-[21px] md:leading-[22px]"
+                      className="flex items-center gap-2.5 mb-3 leading-[21px] md:leading-[22px] animate__animated animate__fadeInUp"
                       key={info.id}
                     >
                       <Image

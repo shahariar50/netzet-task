@@ -19,9 +19,12 @@ const NavBar = () => {
             />
           </Link>
         </div>
-        <ul className="hidden lg:inline-flex self-start items-center gap-10 text-lg text-[#A9A9A9] font-semibold animate__animated animate__fadeInRight">
+        <ul className="hidden lg:inline-flex self-start items-center gap-10 text-lg text-[#A9A9A9] font-semibold">
           {MENUS.map((menu) => (
-            <li key={menu.id}>
+            <li
+              key={menu.id}
+              className="animate__animated animate__fadeInRight"
+            >
               <Link href={menu.link}>{menu.text}</Link>
             </li>
           ))}
