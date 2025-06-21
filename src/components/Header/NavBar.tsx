@@ -8,7 +8,7 @@ const NavBar = () => {
     <div className="container">
       <div className="flex justify-between items-center">
         <div className="w-1/3 md:hidden"></div>
-        <div className="w-1/3 md:w-full text-center md:text-left">
+        <div className="w-1/3 md:w-full text-center md:text-left animate__animated animate__fadeInDown">
           <Link href="/" className="inline-block">
             <Image
               src="/logo.png"
@@ -19,7 +19,7 @@ const NavBar = () => {
             />
           </Link>
         </div>
-        <ul className="hidden lg:inline-flex self-start items-center gap-10 text-lg text-[#A9A9A9] font-semibold">
+        <ul className="hidden lg:inline-flex self-start items-center gap-10 text-lg text-[#A9A9A9] font-semibold animate__animated animate__fadeInRight">
           {MENUS.map((menu) => (
             <li key={menu.id}>
               <Link href={menu.link}>{menu.text}</Link>

@@ -1,3 +1,4 @@
+import "animate.css";
 import type { Metadata } from "next";
 import { Figtree, Urbanist } from "next/font/google";
 import "./globals.css";
